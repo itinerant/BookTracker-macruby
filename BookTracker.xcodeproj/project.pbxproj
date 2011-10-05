@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BAD43FC142AF00D001673B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD43FB142AF00D001673B3 /* Cocoa.framework */; };
+		6BAD43FE142AF00D001673B3 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD43FD142AF00D001673B3 /* MacRuby.framework */; };
+		6BAD4407142AF00D001673B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD4405142AF00D001673B3 /* InfoPlist.strings */; };
+		6BAD4409142AF00D001673B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAD4408142AF00D001673B3 /* main.m */; };
+		6BAD4411142AF00D001673B3 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD4410142AF00D001673B3 /* rb_main.rb */; };
+		6BAD4413142AF00D001673B3 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD4412142AF00D001673B3 /* AppDelegate.rb */; };
+		6BAD441D142AF02E001673B3 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD441C142AF02E001673B3 /* ToDo.txt */; };
+		6BAD4420142AF03E001673B3 /* BookRecord.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD441E142AF03E001673B3 /* BookRecord.rb */; };
+		6BAD4421142AF03E001673B3 /* BookTracker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD441F142AF03E001673B3 /* BookTracker.icns */; };
+		6BAD4423142AF08E001673B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAD4422142AF08E001673B3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BAD4400142AF00D001673B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BAD43EE142AF00C001673B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BAD43F6142AF00D001673B3;
+			remoteInfo = BookTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BAD43F7142AF00D001673B3 /* BookTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAD43FB142AF00D001673B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6BAD43FD142AF00D001673B3 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6BAD4404142AF00D001673B3 /* BookTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookTracker-Info.plist"; sourceTree = "<group>"; };
+		6BAD4406142AF00D001673B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BAD4408142AF00D001673B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BAD440A142AF00D001673B3 /* BookTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookTracker-Prefix.pch"; sourceTree = "<group>"; };
+		6BAD4410142AF00D001673B3 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6BAD4412142AF00D001673B3 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		6BAD441C142AF02E001673B3 /* ToDo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		6BAD441E142AF03E001673B3 /* BookRecord.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BookRecord.rb; sourceTree = "<group>"; };
+		6BAD441F142AF03E001673B3 /* BookTracker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BookTracker.icns; sourceTree = "<group>"; };
+		6BAD4422142AF08E001673B3 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BAD43F4142AF00D001673B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAD43FC142AF00D001673B3 /* Cocoa.framework in Frameworks */,
+				6BAD43FE142AF00D001673B3 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BAD43EC142AF00C001673B3 = {
+			isa = PBXGroup;
+			children = (
+				6BAD4402142AF00D001673B3 /* BookTracker */,
+				6BAD43FA142AF00D001673B3 /* Frameworks */,
+				6BAD43F8142AF00D001673B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BAD43F8142AF00D001673B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD43F7142AF00D001673B3 /* BookTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BAD43FA142AF00D001673B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD43FB142AF00D001673B3 /* Cocoa.framework */,
+				6BAD43FD142AF00D001673B3 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BAD4402142AF00D001673B3 /* BookTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD4412142AF00D001673B3 /* AppDelegate.rb */,
+				6BAD441E142AF03E001673B3 /* BookRecord.rb */,
+				6BAD441C142AF02E001673B3 /* ToDo.txt */,
+				6BAD440B142AF00D001673B3 /* Resources */,
+				6BAD440F142AF00D001673B3 /* Other Sources */,
+				6BAD4403142AF00D001673B3 /* Supporting Files */,
+			);
+			path = BookTracker;
+			sourceTree = "<group>";
+		};
+		6BAD4403142AF00D001673B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD441F142AF03E001673B3 /* BookTracker.icns */,
+				6BAD4404142AF00D001673B3 /* BookTracker-Info.plist */,
+				6BAD4405142AF00D001673B3 /* InfoPlist.strings */,
+				6BAD4408142AF00D001673B3 /* main.m */,
+				6BAD440A142AF00D001673B3 /* BookTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BAD440B142AF00D001673B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD4422142AF08E001673B3 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BAD440F142AF00D001673B3 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD4410142AF00D001673B3 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6BAD43FF142AF00D001673B3 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed --gem sqlite3";
+			buildConfigurationList = 6BAD4419142AF00D001673B3 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			buildWorkingDirectory = "";
+			dependencies = (
+				6BAD4401142AF00D001673B3 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6BAD43F6142AF00D001673B3 /* BookTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAD4416142AF00D001673B3 /* Build configuration list for PBXNativeTarget "BookTracker" */;
+			buildPhases = (
+				6BAD43F3142AF00D001673B3 /* Sources */,
+				6BAD43F4142AF00D001673B3 /* Frameworks */,
+				6BAD43F5142AF00D001673B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookTracker;
+			productName = BookTracker;
+			productReference = 6BAD43F7142AF00D001673B3 /* BookTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BAD43EE142AF00C001673B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Itinerant Software Solutions";
+			};
+			buildConfigurationList = 6BAD43F1142AF00C001673B3 /* Build configuration list for PBXProject "BookTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BAD43EC142AF00C001673B3;
+			productRefGroup = 6BAD43F8142AF00D001673B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BAD43F6142AF00D001673B3 /* BookTracker */,
+				6BAD43FF142AF00D001673B3 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BAD43F5142AF00D001673B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAD4407142AF00D001673B3 /* InfoPlist.strings in Resources */,
+				6BAD4411142AF00D001673B3 /* rb_main.rb in Resources */,
+				6BAD4413142AF00D001673B3 /* AppDelegate.rb in Resources */,
+				6BAD441D142AF02E001673B3 /* ToDo.txt in Resources */,
+				6BAD4420142AF03E001673B3 /* BookRecord.rb in Resources */,
+				6BAD4421142AF03E001673B3 /* BookTracker.icns in Resources */,
+				6BAD4423142AF08E001673B3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BAD43F3142AF00D001673B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAD4409142AF00D001673B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BAD4401142AF00D001673B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BAD43F6142AF00D001673B3 /* BookTracker */;
+			targetProxy = 6BAD4400142AF00D001673B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BAD4405142AF00D001673B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BAD4406142AF00D001673B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BAD4414142AF00D001673B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BAD4415142AF00D001673B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BAD4417142AF00D001673B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookTracker/BookTracker-Prefix.pch";
+				INFOPLIST_FILE = "BookTracker/BookTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BAD4418142AF00D001673B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookTracker/BookTracker-Prefix.pch";
+				INFOPLIST_FILE = "BookTracker/BookTracker-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BAD441A142AF00D001673B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6BAD441B142AF00D001673B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BAD43F1142AF00C001673B3 /* Build configuration list for PBXProject "BookTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD4414142AF00D001673B3 /* Debug */,
+				6BAD4415142AF00D001673B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAD4416142AF00D001673B3 /* Build configuration list for PBXNativeTarget "BookTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD4417142AF00D001673B3 /* Debug */,
+				6BAD4418142AF00D001673B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAD4419142AF00D001673B3 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD441A142AF00D001673B3 /* Debug */,
+				6BAD441B142AF00D001673B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BAD43EE142AF00C001673B3 /* Project object */;
+}

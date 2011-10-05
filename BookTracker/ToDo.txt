@@ -1,0 +1,7 @@
+
+* settings window to set database url, username, password (preferences pane)
+
+* update About dialog
+
+* printing
+* export list

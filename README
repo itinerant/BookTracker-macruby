@@ -1,0 +1,9 @@
+BookTracker is a simple application for tracking the books you read.  All data is personalized - there is nothing pre-set.
+
+To add a book, enter data in each of the fields in the Add Book section (category is optional as is one of audiobook or pages).  Then click Add Book.
+
+The Date field is set to the current month and last month, assuming that the tracking system is being kept up to date.
+
+--------------------------
+
+The application is built using XCode and MacRuby.  The only gem requirement is 'sqlite3'.
