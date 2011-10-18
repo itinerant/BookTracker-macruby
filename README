@@ -6,4 +6,8 @@ The Date field is set to the current month and last month, assuming that the tra
 
 --------------------------
 
+The 'family member' and 'year' combos are currently pre-set in the UI and would need to be modified for any other use. 
+
+--------------------------
+
 The application is built using XCode and MacRuby.  The only gem requirement is 'sqlite3'.
